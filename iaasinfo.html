@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>cloud_services</title>
+</head>
+<body background="css/back2.jpg">
+
+<fieldset >
+<legend><b>Choose from here </b>  </legend>
+<form  action="/cgi-bin/iaasinfo.py" method="POST">
+<h4>Select the name of the OS<h4>
+<input  type="radio" name="osname" value="kali"><b>KALI</b></br>
+<input  type="radio" name="osname" value="rhel7"><b>RHEL7</b></br>
+
+
+<h4>Select the ram of the OS<h4>
+<input  type="radio" name="osram" value="1024"><b>1024MB</b></br>
+<input  type="radio" name="osram" value="2048"><b>2048MB</b></br>
+
+
+<h4>Select the number of CPUs required<h4>
+<input  type="radio" name="oscpu" value="1"><b>1 CORE</b></br>
+<input  type="radio" name="oscpu" value="2"><b>2 CORE</b></br>
+
+
+<h4>Select the size of the Hard Disk<h4>
+<input  type="radio" name="oshdd" value="no"><b>LIVE OS</b></br>
+<input  type="radio" name="oshdd" value="10"><b>10GB</b></br>
+<input  type="radio" name="oshdd" value="20"><b>20GB</b></br>
+
+<h4>Enter the port number (Above 5900)</h4><input type="text" name="portno" value="Enter the port number"></br> 
+<input  type="submit" value="Submit">
+
+
+</form>
+</fieldset>
+</body>
+</html>
+
